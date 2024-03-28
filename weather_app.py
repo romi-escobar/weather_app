@@ -15,4 +15,5 @@ def obtener_clima(ciudad, clave_api):
 
 if __name__ == "__main__":
     ciudad = input("Ingresa el nombre de la ciudad para obtener el clima: ")
-    clave_api = 'your_API_key'  # Reemplazar con tu API key
+    clave_api = 'fff6b3a76f6c5861a4b1454a3405f507'  # Reemplazar con tu API key
+    obtener_clima(ciudad, clave_api)
